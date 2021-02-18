@@ -1,0 +1,7 @@
+
+def reverse(word):
+    if word == word[::-1]:
+        return True
+    else:
+        return False
+print(reverse(word))
