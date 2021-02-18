@@ -1,0 +1,5 @@
+def renk():
+    colors=(input("enter the colors place between (-):")).split("-")
+    colors.sort()
+    return print (*colors,sep="-")
+renk()
