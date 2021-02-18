@@ -1,0 +1,7 @@
+def fonksion():
+    birler = [" ","bir","iki","üç","dört","beş","altı","yedi","sekiz","dokuz"]
+    onlar = [" ","on","yirmi","otuz","kırk","elli","altmış","yetmiş","seksen","doksan"]
+    a = int(input("enter your number (10-99):"))
+    b = str(a)
+    print(onlar[int(b[0])],birler[int(b[1])])
+fonksion()
